@@ -6,19 +6,16 @@ import {
   CategoryScale,
   LinearScale,
   BarElement,
-  BarController,
   Title,
   Tooltip,
   Legend,
 } from 'chart.js';
-import { Bar } from 'react-chartjs-2';
 import { VerticalGraph } from "./VerticalGraph";
 
 ChartJS.register(
   CategoryScale,
   LinearScale,
   BarElement,
-  BarController,
   Title,
   Tooltip,
   Legend
