@@ -186,7 +186,7 @@ const Signup = () => {
           </button>
         </form>
         <p className="switch-auth">
-          Already have an account? <Link to="/login"><b>Login</b></Link>
+          Already have an account? <Link to="/signup"><b>Login</b></Link>
         </p>
       </div>
     </div>

@@ -23,7 +23,7 @@ function Education() {
             covering everything from the basics to advanced trading.
           </p>
 
-          <a href="#" className="text-primary text-decoration-none">
+          <a href="/" className="text-primary text-decoration-none">
             Varsity →
           </a>
 
@@ -32,7 +32,7 @@ function Education() {
             India for all your market related queries.
           </p>
 
-          <a href="#" className="text-primary text-decoration-none">
+          <a href="/" className="text-primary text-decoration-none">
             TradingQ&A →
           </a>
         </div>

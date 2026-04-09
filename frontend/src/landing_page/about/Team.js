@@ -37,11 +37,11 @@ function Team() {
 
           <div className="mt-4">
             <span>Connect on </span>
-            <a href="#" className="text-decoration-none fw-medium">Homepage</a>
+            <a href="/" className="text-decoration-none fw-medium">Homepage</a>
             <span className="mx-1">/</span>
-            <a href="#" className="text-decoration-none fw-medium">TradingQnA</a>
+            <a href="/" className="text-decoration-none fw-medium">TradingQnA</a>
             <span className="mx-1">/</span>
-            <a href="#" className="text-decoration-none fw-medium">Twitter</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-medium">Twitter</a>
           </div>
         </div>
 

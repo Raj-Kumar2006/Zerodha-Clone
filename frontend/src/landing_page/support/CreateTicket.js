@@ -114,7 +114,7 @@ function CreateTicket() {
                 <ul className="support-list">
                   {section.items.map((item, i) => (
                     <li key={i}>
-                      <a href="#">{item}</a>
+                      <a href="/">{item}</a>
                     </li>
                   ))}
                 </ul>
@@ -132,12 +132,12 @@ function CreateTicket() {
           <div className="notice-box mb-4">
             <ul>
               <li>
-                <a href="#">
+                <a href="/">
                   Revision in commodity market trading hours from March 09, 2026
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   Latest Intraday leverages and Square-off timings
                 </a>
               </li>
@@ -148,11 +148,11 @@ function CreateTicket() {
           <div className="quick-links">
             <h6>Quick links</h6>
             <ol>
-              <li><a href="#">Track account opening</a></li>
-              <li><a href="#">Track segment activation</a></li>
-              <li><a href="#">Intraday margins</a></li>
-              <li><a href="#">Kite user manual</a></li>
-              <li><a href="#">Learn how to create a ticket</a></li>
+              <li><a href="/">Track account opening</a></li>
+              <li><a href="/">Track segment activation</a></li>
+              <li><a href="/">Intraday margins</a></li>
+              <li><a href="/">Kite user manual</a></li>
+              <li><a href="/">Learn how to create a ticket</a></li>
             </ol>
           </div>
 

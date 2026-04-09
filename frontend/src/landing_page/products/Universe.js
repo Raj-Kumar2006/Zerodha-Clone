@@ -6,7 +6,7 @@ function Universe() {
       <div className="text-center pb-5">
         <p className="tech-text mb-0">
           Want to know more about our technology stack? Check out the{" "}
-          <a href="#" className="tech-link">
+          <a href="/" className="tech-link">
             Zerodha.tech
           </a>{" "}
           blog.

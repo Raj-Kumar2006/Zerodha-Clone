@@ -13,7 +13,7 @@ function Pricing() {
             in India. Flat fees and no hidden charges.
           </p>
 
-          <a href="#" className="text-primary text-decoration-none ">
+          <a href="/" className="text-primary text-decoration-none ">
             See pricing →
           </a>
         </div>

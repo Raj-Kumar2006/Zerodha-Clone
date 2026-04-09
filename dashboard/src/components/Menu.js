@@ -20,7 +20,7 @@ const Menu = () => {
 
   const handleLogout = () => {
     logout();
-    navigate("/login");
+    navigate("/signup");
   };
 
   const menuClass = "menu";

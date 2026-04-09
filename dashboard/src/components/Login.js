@@ -77,7 +77,7 @@ const Login = () => {
   return (
     <div className="auth-container">
       <div className="auth-box">
-        <a href="http://localhost:3000">
+        <a href="https://zerodha-dashboard-new.netlify.app">
           <img
             src="https://zerodha.com/static/images/logo.svg"
             alt="Zerodha"

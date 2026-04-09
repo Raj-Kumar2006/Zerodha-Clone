@@ -43,18 +43,18 @@ function Stats() {
           />
 
           <div className="mt-4 text-center">
-            <a href="#" className="me-4 text-decoration-none text-primary">
+            <a href="/" className="me-4 text-decoration-none text-primary">
               Explore our products →
             </a>
 
-            <a href="#" className="text-decoration-none text-primary">
+            <a href="/" className="text-decoration-none text-primary">
               Try Kite demo →
             </a>
           </div>
 
         </div>
 
-        <img src="media/Images/press-logos.png" style={{width:"60%", margin: "0 auto"}}/>  
+        <img src="media/Images/press-logos.png" alt="Press logos" style={{width:"60%", margin: "0 auto"}}/>  
       </div>
     </div>
      );
