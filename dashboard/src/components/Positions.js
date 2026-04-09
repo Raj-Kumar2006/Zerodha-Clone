@@ -5,7 +5,10 @@ const Positions = () => {
   const [allPositions, setAllPositions] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allPositions")
+    const token = localStorage.getItem("token");
+    axios.get("http://localhost:3002/allPositions", {
+      headers: { Authorization: `Bearer ${token}` }
+    })
       .then((res) => {
         setAllPositions(res.data);
       })

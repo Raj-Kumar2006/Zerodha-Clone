@@ -28,8 +28,11 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
+    const token = localStorage.getItem("token");
     axios
-      .get("http://localhost:3002/allHoldings")
+      .get("http://localhost:3002/allHoldings", {
+        headers: { Authorization: `Bearer ${token}` }
+      })
       .then((res) => {
         setAllHoldings(res.data);
       })

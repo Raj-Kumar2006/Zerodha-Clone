@@ -7,7 +7,10 @@ const Orders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allOrders").then((res) => {
+    const token = localStorage.getItem("token");
+    axios.get("http://localhost:3002/allOrders", {
+      headers: { Authorization: `Bearer ${token}` }
+    }).then((res) => {
       setOrders(res.data);
     });
   }, []);

@@ -74,8 +74,17 @@ const Signup = () => {
           if (loginRes.data.token) {
             localStorage.setItem("token", loginRes.data.token);
             localStorage.setItem("username", loginRes.data.username);
-            login(loginRes.data.username);
-            setTimeout(() => navigate("/"), 1500);
+            localStorage.setItem("userId", loginRes.data.userId);
+            login(loginRes.data.username, loginRes.data.userId);
+            
+            const token = loginRes.data.token;
+            axios.post("http://localhost:3002/seedData", {}, {
+              headers: { Authorization: `Bearer ${token}` }
+            }).then(() => {
+              setTimeout(() => navigate("/"), 1500);
+            }).catch(() => {
+              setTimeout(() => navigate("/"), 1500);
+            });
           }
         }, 1500);
       }
